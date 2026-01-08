@@ -1,4 +1,6 @@
-Se copiaron los ejercicios hechos anteriormente.
+
+
+ Se copiaron los ejercicios hechos anteriormente.
 se testeó su correcto funcionamiento.
 ___________________________________________________
 recordatorio: 
@@ -8,3 +10,13 @@ recordatorio:
 por ejemplo:
 node clase8-tarea-ejercicio1.js
 ____________________________________________________
+repaso:
+ instalacion de prompt: npm i prompt-sync
+
+ uso:   const prompt = require (`prompt-sync`)(); 
+____________________________________________________
+tareas: 
+5 ejercicios de la practica
+3 ejercicios del archivo de "instalacion_prompt.doc"
+
+
