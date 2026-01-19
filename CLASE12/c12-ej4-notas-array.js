@@ -1,4 +1,4 @@
-/*______________________    EJERCICIO 1 - CLASE 12     ____________________________
+/*______________________    EJERCICIO 4 - CLASE 12     ____________________________
 
 ● Ejercicio 4: Ciclo For - Array
 Crear un programa que permita registrar las notas de varios estudiantes usando
