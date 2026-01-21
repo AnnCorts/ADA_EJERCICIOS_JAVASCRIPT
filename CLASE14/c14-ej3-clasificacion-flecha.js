@@ -1,4 +1,4 @@
-/*________________________    EJERCICIO 1 - CLASE 14     ____________________________
+/*________________________    EJERCICIO 3 - CLASE 14     ____________________________
 Ejercicios de Arrow Function:
 
 ●	Ejercicio 3: Clasificación de edades

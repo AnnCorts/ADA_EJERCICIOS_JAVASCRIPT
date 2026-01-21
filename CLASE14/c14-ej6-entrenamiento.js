@@ -1,4 +1,4 @@
-/*______________________    EJERCICIO 1 - CLASE 14     ____________________________
+/*______________________    EJERCICIO 6 - CLASE 14     ____________________________
 
 Ejercicios de Objetos:
 
@@ -18,6 +18,7 @@ Una vez definida la función, podemos ejecutar el código y
 */
 const prompt = require("prompt-sync")(); 
 
+//array
 let deportista = {
     nombre : "Dante",
     energia : 100,
