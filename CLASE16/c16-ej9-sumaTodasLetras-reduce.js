@@ -1,5 +1,4 @@
-/*______________________    EJERCICIO 1 - CLASE 16     ____________________________
-
+/*______________________    EJERCICIO 9 - CLASE 16     ____________________________
 
 ● Ejercicio 9: Cuenta la cantidad total de letras en una lista de palabras
 Imagina que tienes una lista de palabras ['sol', 'luna', 'estrella'].
@@ -7,7 +6,14 @@ Imagina que tienes una lista de palabras ['sol', 'luna', 'estrella'].
   Por ejemplo, 'sol' tiene 3 letras, 'luna' tiene 4, y 'estrella' tiene 8.
    La suma total debería ser 15.
 
-
-
-
 */
+
+let  palabras = ['sol', 'luna', 'estrella'];
+
+let suma = palabras.reduce(function(acum, palabra) {
+  return acum +  palabra.length;
+},0);
+
+console.log(suma);
+
+

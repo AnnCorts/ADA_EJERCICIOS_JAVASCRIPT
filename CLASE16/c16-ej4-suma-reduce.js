@@ -1,12 +1,16 @@
-/*______________________    EJERCICIO 1 - CLASE 16     ____________________________
+/*______________________    EJERCICIO 4 - CLASE 16     ____________________________
 
 ● Ejercicio 4: Calcula la suma total de los números
 Dada una lista de números [1, 2, 3, 4],
  necesitamos calcular el resultado de sumarlos todos juntos.
   Es decir, deberías obtener 1 + 2 + 3 + 4. Al fi nalizar, imprime el total en la consola.
 
-
-
-
-
 */
+
+let numeros = [1, 2, 3, 4];
+
+let suma = numeros.reduce(function(acum, unNumero) {
+  return acum + unNumero;
+});
+
+console.log(suma);
