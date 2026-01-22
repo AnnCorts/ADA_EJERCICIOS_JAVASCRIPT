@@ -8,3 +8,13 @@ Tienes una fila de mascotas en una clínica veterinaria ["Perro", "Gato", "Conej
 
 
 */
+
+let mascotas = ["Perro", "Gato", "Conejo"];
+
+mascotas.unshift("hamster");
+
+console.log(`la nueva lista es: ${mascotas}`);
+console.log(`Se atendió a ${mascotas[0]}`);
+mascotas.shift();
+console.log(`la nueva lista es: ${mascotas}`);
+

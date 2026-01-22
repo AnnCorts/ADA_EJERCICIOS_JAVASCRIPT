@@ -7,3 +7,9 @@ Tienes la frase "Los gatos son geniales".
 
 
 */
+
+let frase = "Los gatos son geniales"
+
+let gato = frase.slice(4,8);
+
+console.log(gato);

@@ -8,3 +8,9 @@ Tienes un array de palabras ["JavaScript", "es", "divertido"].
 
 
 */
+
+let palabras = ["JavaScript", "es", "divertido"];
+
+let todoJunto = palabras.join(" ");
+
+console.log(todoJunto);

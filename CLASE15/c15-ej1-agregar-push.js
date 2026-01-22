@@ -12,5 +12,6 @@ Tienes una lista de personajes de videojuegos ["Link", "Zelda"].
 
 let personajes = ["Link", "Zelda"];
 
-
+personajes.push("Mario", "Luigi");
+console.log(personajes);
 

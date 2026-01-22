@@ -6,3 +6,9 @@ Tienes una lista de números [2, 5, 7, 2, 8, 7].
 
 
 */
+
+let numeros = [2, 5, 7, 2, 8, 7];
+
+let busca = numeros.indexOf(7);
+
+console.log(busca);
