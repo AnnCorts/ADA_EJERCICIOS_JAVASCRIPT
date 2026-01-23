@@ -20,3 +20,34 @@ pero, la propuesta que les hago es que codeen un algoritmo de búsqueda binaria,
 El objetivo de este ejercicio es que puedan practicar la sintaxis sin añadir complejidad extra.
 
 */
+
+// Array ordenado de ejemplo
+let numeros = [1, 3, 5, 6, 9, 11];
+
+// Función de búsqueda binaria
+function busquedaBinaria(arr, objetivo) {
+  let inicio = 0;
+  let fin = arr.length - 1;
+
+  while (inicio <= fin) {
+    let medio = Math.floor((inicio + fin) / 2);
+
+    if (arr[medio] === objetivo) {
+      return medio; // encontrado
+    } else if (arr[medio] < objetivo) {
+      inicio = medio + 1; // buscar en la mitad derecha
+    } else {
+      fin = medio - 1; // buscar en la mitad izquierda
+    }
+  }
+
+  return -1; // no encontrado
+}
+
+// Probar los números solicitados
+let numerosABuscar = [1, 5, 6, 9, 11];
+
+numerosABuscar.forEach(num => {
+  let posicion = busquedaBinaria(numeros, num);
+  console.log(`El número ${num} está en la posición: ${posicion}`);
+});
